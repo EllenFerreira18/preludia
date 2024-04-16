@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Gameplay';
+    src: url(fontes/Gameplay.ttf);
+}
+
+:root {
+    --azul-escuro: #02466B;
+    --laranja: #FF5F00;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid {
+    width: 80vw;
+    max-width: 1400px;
+
+    margin: 0 auto;
+}
+
+.banner {
+    height: 100vh;
+
+    background-image: url(img/escritorio.png);
+    background-repeat: no-repeat;
+
+    background-position: 10%;
+    background-size: cover;
+}
+
+header {
+    background-color: #02466b63;
+    height: 200px;
+}
+
+header div.container-grid {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img {
+    width: 300px;
+}
+
+.menu {
+    width: 700px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+
+    font-family: 'Gameplay';
+    font-size: 18px;
+
+    text-decoration: underline transparent;
+}
+
+.menu button {
+    background-color: rgb(18, 39, 51);
+
+    width: 300px;
+    height: 40px;
+    border-radius: 18px;
+    border: none;
+}
+
+.conteudo-banner p {
+    color: white;
+
+    font-family: 'Gameplay';
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.conteudo-banner {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudo-banner button {
+    width: 90px;
+    height: 35px;
+    border-radius: 30px;
+
+    color: white;
+    font-family: 'Gameplay';
+    font-size: 18px;
+
+    background-color: #FF5F00;
+
+    border-style: none;
+
+}
