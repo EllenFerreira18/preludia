@@ -39,12 +39,21 @@ header {
 header div.container-grid {
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 header img {
-    width: 300px;
+    width: 250px;
+   
+}
+
+.container-grid.conteudo-banner {
+    height: 30%;
+    display: flex;
+
+    align-items: center;
+    gap: 10px;
 }
 
 .menu {
@@ -64,9 +73,9 @@ header img {
 }
 
 .menu button {
-    background-color: rgb(18, 39, 51);
+    background-color: rgb(9, 24, 54);
 
-    width: 300px;
+    width: 200px;
     height: 40px;
     border-radius: 18px;
     border: none;
