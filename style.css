@@ -4,8 +4,11 @@
 }
 
 :root {
+    --azul: #058CD7;
     --azul-escuro: #02466B;
     --laranja: #FF5F00;
+    --preto: #1D191E;
+    --branco: #FFFCF7;
 }
 
 * {
@@ -13,6 +16,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background: rgb(2, 70, 107);
+    background: linear-gradient(0deg, rgba(2, 70, 107, 1) 0%, rgba(29, 25, 30, 1) 51%);
+}
+
 
 .container-grid {
     width: 80vw;
@@ -45,7 +54,6 @@ header div.container-grid {
 
 header img {
     width: 250px;
-   
 }
 
 .container-grid.conteudo-banner {
@@ -75,11 +83,32 @@ header img {
 .menu button {
     background-color: rgb(9, 24, 54);
 
-    width: 200px;
+    width: 250px;
     height: 40px;
     border-radius: 18px;
     border: none;
 }
+
+.menu .um button {
+    width: 200px;
+}
+
+.menu .dois button {
+    width: 200px;
+}
+
+.filtro {
+    height: 35px;
+    width: 400px;
+
+    background-color: #058CD7;
+    filter: blur(6px);
+
+    position: absolute;
+
+    top: 270px;
+}
+
 
 .conteudo-banner p {
     color: white;
@@ -91,6 +120,8 @@ header img {
     flex-direction: column;
     align-items: baseline;
     justify-content: center;
+
+    position: relative;
 }
 
 .conteudo-banner {
@@ -100,6 +131,7 @@ header img {
     align-items: center;
     justify-content: center;
 }
+
 
 .conteudo-banner button {
     width: 90px;
@@ -113,5 +145,28 @@ header img {
     background-color: #FF5F00;
 
     border-style: none;
+}
 
+#sobre {
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+    padding: 100px 25%;
+}
+
+h2 {
+    font-family: 'Gameplay';
+    font-size: 26px;
+    color: var(--branco);
+}
+
+#cases {
+    text-align: center;
+
+    padding-bottom: 500px;
+    margin-bottom: 500px;
 }
