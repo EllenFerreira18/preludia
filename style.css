@@ -41,7 +41,7 @@ body {
 }
 
 header {
-    background-color: #02466b63;
+    background-color: #02466b71;
     height: 200px;
 }
 
@@ -54,14 +54,6 @@ header div.container-grid {
 
 header img {
     width: 250px;
-}
-
-.container-grid.conteudo-banner {
-    height: 30%;
-    display: flex;
-
-    align-items: center;
-    gap: 10px;
 }
 
 .menu {
@@ -97,35 +89,27 @@ header img {
     width: 200px;
 }
 
-.filtro {
-    height: 35px;
-    width: 400px;
-
-    background-color: #058CD7;
-    filter: blur(6px);
-
-    position: absolute;
-
-    top: 270px;
-}
-
-
 .conteudo-banner p {
     color: white;
+
+    background-color: #058CD7;
+    box-shadow: 0px 0px 30px 15px #058CD7;
+    border-radius: 200px;
 
     font-family: 'Gameplay';
     font-size: 20px;
 
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    justify-content: center;
 
-    position: relative;
+    justify-content: center;
 }
 
 .conteudo-banner {
+    height: calc(100vh - 500px);
+
     display: flex;
+    gap: 18px;
 
     flex-direction: column;
     align-items: center;
@@ -137,7 +121,7 @@ header img {
     width: 90px;
     height: 35px;
     border-radius: 30px;
-
+    
     color: white;
     font-family: 'Gameplay';
     font-size: 18px;
@@ -145,6 +129,7 @@ header img {
     background-color: #FF5F00;
 
     border-style: none;
+    
 }
 
 #sobre {
@@ -156,6 +141,13 @@ header img {
 
     text-align: center;
     padding: 100px 25%;
+}
+
+#sobre img {
+    width: 150px;
+    height: 150px;
+
+    display: flex;
 }
 
 h2 {
@@ -170,3 +162,175 @@ h2 {
     padding-bottom: 500px;
     margin-bottom: 500px;
 }
+
+#contato {
+    text-align: center;
+
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+
+#contato p {
+    margin-bottom: 70px;
+}
+
+.campo-um {
+    width: 50%;
+
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+   
+}
+
+#campo-assunto {
+    width: 100%;
+}
+
+#contato form {
+    width: 50%;
+
+    margin: 0 auto;
+    padding: 60px 0;
+
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 20px;
+
+    background-color: #1D191E;
+
+    color: #FFFCF7;
+    font-family: 'Press Start 2P';
+}
+
+
+
+.campo {
+    width: 80%;
+
+    margin-bottom: 30px;
+
+
+    display: flex;
+    justify-content: flex-end;
+
+    justify-content: space-between;
+}
+
+.campo input {
+    height: 30px;
+
+    background-color: transparent;
+
+    border-radius: 15px;
+
+    outline: 3px solid white;
+    justify-content: flex-end;
+
+    text-indent: 10px;
+
+    font-family: 'Press Start 2P';
+    font-size: 14px;
+}
+
+.campo-textarea {
+    width: 60%;
+    margin-bottom: 30px;
+    text-align: left;
+
+    justify-content: flex-end;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.campo-textarea textarea {
+    color: white;
+    background-color: transparent;
+
+    border: none;
+    border-radius: 15px;
+
+    padding: 10px;
+
+    font-family: 'Press Start 2P';
+    font-size: 14px;
+
+    outline: 3px solid white;
+
+    border-radius: 15px;
+}
+
+#contato form button {
+    height: 30px;
+    width: 20%;
+
+    font-family: 'Press Start 2P';
+    font-size: 14px;
+    font-weight: 600;
+
+    color: white;
+    background-color: #02466B;
+
+    border: none;
+    border-radius: 20px;
+
+    cursor: pointer;
+}
+
+#contato form button:hover {
+    background-color: #02466B;
+}
+
+
+
+
+footer {
+    height: 250px;
+    background-color: #1D191E;
+}
+
+
+footer .container-grid {
+    height: 100%;
+
+    display: flex;
+    
+ 
+    justify-content: end;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais p {
+    color: var(--branco);
+    padding-bottom: 20px;
+
+    font-family: 'Gameplay';
+    font-size: 20px;
+}
+
+
+.icones-redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.icones-redes img {
+    width: 50px;
+    height: 50px;
+}
+
+
