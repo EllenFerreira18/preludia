@@ -20,38 +20,76 @@
             <div class="container-grid">
                 <img src="img/logo.svg" alt="Logo da empresa PreLúdia">
                 <nav class="menu">
-                    <div class="um">
-                        <button>
-                            <a href="#sobre">Quem somos</a></button>
-                    </div>
+
+                    <button class="um">
+                        <a href="#sobre">Quem Somos</a>
+                    </button>
+
                     <button><a href="#cases">Cases de Sucesso</a></button>
-                    <div class="dois">
-                        <button><a href="#contato">Contato</a></button>
-                    </div>
+
+                    <button class="dois">
+                        <a href="#contato">Contato</a>
+                    </button>
+
                 </nav>
             </div>
         </header>
         <div class="container-grid conteudo-banner">
-            <div class="filtro"></div>
-            <p>Quer conhecer nosso porfolio?</p>
-            <button>Jogar</button>
+            <p>Quer conhecer nossos projetos?</p>
+            <button><span><a href="#">Jogar</a></span>
+            </button>
         </div>
     </div>
+
     <section id="sobre">
+
         <h2>Quem somos</h2>
-        <img src="img/Firefly dois homens 59198 1.png" alt="Personagem em pixel art">
-        <img src="img/Firefly dois homens 59198 2.png" alt="Personagem em pixel art">
+            <button>Player 1</button>
+            <div class="homem-um">
+                <img src="img/Firefly dois homens 59198 1.png" alt="Personagem em pixel art">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>    
+            </div>
+
+            <div class="container-sobre">
+                <button class="botao-dois">Player 2</button>
+            </div>
+
+            <div class="homem-dois">
+                <img src="img/Firefly dois homens 59198 2.png" alt="Personagem em pixel art">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>   
     </section>
+
+
 
     <section class="container-grid" id="cases">
         <h2>Cases de Sucesso</h2>
-    </section>
-    <div class="container-cards">    
+
+        <div class="container-cards">
+            <div class="container">
+                <img src="img/bagunca.png" alt="" class="image">
+                <div class="overlay">aaaaaaaaaaaaaaLorem ipsum dolor sit amet. Et totam quaerat sed eaque nostrum sit vitae culpa cum corporis voluptas non nostrum adipisci. Sed enim aliquid et ducimus facere sit incidunt dicta aut quas expedita id vitae voluptas et tempore cupiditate sed animi debitis. Qui quos voluptatem vel molestiae nobis ut dolor galisum quo modi iusto et distinctio cupiditate aut recusandae harum est tenetur eius!                  
+                 </div>
+            </div>
+
+            <div class="container">
+                <img src="img/carro.png" alt="" class="image">
+                <div class="overlay">aaaaaaaaaaaaaaLorem ipsum dolor sit amet. Et totam quaerat sed eaque nostrum sit vitae culpa cum corporis voluptas non nostrum adipisci. Sed enim aliquid et ducimus facere sit incidunt dicta aut quas expedita id vitae voluptas et tempore cupiditate sed animi debitis. Qui quos voluptatem vel molestiae nobis ut dolor galisum quo modi iusto et distinctio cupiditate aut recusandae harum est tenetur eius!                  
+                </div>
+            </div>
+
+            <div class="container">
+                <img src="img/alunos.png" alt="" class="image">
+                <div class="overlay">aaaaaaaaaaaaaaLorem ipsum dolor sit amet. Et totam quaerat sed eaque nostrum sit vitae culpa cum corporis voluptas non nostrum adipisci. Sed enim aliquid et ducimus facere sit incidunt dicta aut quas expedita id vitae voluptas et tempore cupiditate sed animi debitis. Qui quos voluptatem vel molestiae nobis ut dolor galisum quo modi iusto et distinctio cupiditate aut recusandae harum est tenetur eius!                  
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+    
+
 
     <section id="contato">
-        
+        <h2>Contato</h2>
 
         <form>
             <p>Envie sua mensagem</p>
@@ -63,12 +101,12 @@
                 <input id="campo-assunto" type="text" placeholder="Assunto">
             </div>
             <div class="campo-textarea">
-                <textarea name="" id="campo-mensagem" cols="30" rows="10" placeholder="Digite sua mensagem..."></textarea>
+                <textarea name="" id="campo-mensagem" cols="30" rows="10"
+                    placeholder="Digite sua mensagem..."></textarea>
             </div>
             <button type="submit">Enviar</button>
-
-
         </form>
+
     </section>
 
     <footer>
