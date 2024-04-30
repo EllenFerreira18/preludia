@@ -17,8 +17,11 @@
     box-sizing: border-box;
 }
 
-
 body {
+<<<<<<< HEAD
+    background: linear-gradient(0deg, #033a5848 0%, #05334d9a 10%, rgba(29, 25, 30, 1) 90%), url(img/bk2.png) no-repeat;
+    background-position: bottom;
+=======
     background: rgb(2, 70, 107);
     background: linear-gradient(0deg, #033a5848 0%, #05334d9a 10%, rgba(29, 25, 30, 1) 90%), url(img/bk2.png) no-repeat;
     background-position: bottom;
@@ -27,24 +30,27 @@ body {
     /*background: rgb(2, 70, 107);
     background: linear-gradient(0deg, #033a58 0%, #05334d 5%, rgba(29, 25, 30, 1) 80%);
     linear-gradient(0deg, rgba(2,173,231,0.5), rgba(2,173,231,0.5)), url(img/bk2.png) no-repeat;*/
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
 }
 
 
 .container-grid {
     width: 80vw;
     max-width: 1400px;
-
     margin: 0 auto;
 }
 
 .banner {
     height: 100vh;
+<<<<<<< HEAD
+    background: url(img/escritorio.png);
+=======
 
     background: url(img/escritorio.png);
 
     background-color: 100%;
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     background-repeat: no-repeat;
-
     background-position: 10%;
     background-size: cover;
 }
@@ -62,7 +68,10 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     z-index: 1;
 }
 
@@ -79,10 +88,15 @@ header img {
 header button {
     display: none;
 }
+<<<<<<< HEAD
+=======
 
 .menu {
     width: 680px;
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
 
+.menu {
+    width: 680px;
     display: flex;
     justify-content: space-between;
 }
@@ -92,10 +106,15 @@ header button {
     align-items: center;
     justify-content: center;
 }
+<<<<<<< HEAD
+=======
 
 .menu a {
     color: white;
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
 
+.menu a {
+    color: white;
     font-family: 'Gameplay';
     font-size: 18px;
 
@@ -122,7 +141,10 @@ header button {
 .conteudo-banner a {
     color: white;
     text-decoration: none;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     font-weight: 50;
     word-spacing: 2px;
 }
@@ -140,7 +162,10 @@ header button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     font-weight: 500;
 }
 
@@ -191,8 +216,6 @@ header button {
     right: -20px;
     transition: 0.5s;
 }
-
-
 .conteudo-banner button:hover {
     background-color: #012437c3;
 }
@@ -200,13 +223,69 @@ header button {
 .conteudo-banner button:hover span {
     padding-right: 25px;
 }
-
 .conteudo-banner button:hover span:after {
     opacity: 1;
     right: 0;
 }
 
+.quadrado-azul button {
+    background-color: #058CD7;
+}
 
+.quadrado-azul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 200px;
+    width: 200px;
+    background-color: none;
+    border: 4px solid var(--azul);
+    border-radius: 10px;
+}
+
+#sobre .homem-um img {
+    width: 60%;
+}
+
+.quadrado-laranja button {
+    background-color: #FF5F00;
+}
+
+.container-sobre {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+}
+
+.container-sobre-um {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+
+.quadrado-laranja {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 200px;
+    width: 200px;
+    background-color: none;
+    border: 4px solid var(--laranja);
+    border-radius: 10px;
+}
+
+#sobre .homem-dois img {
+    width: 60%;
+}
+
+#sobre .botao-dois {
+    background-color: #FF5F00;
+}
 
 .quadrado-azul button {
     background-color: #058CD7;
@@ -275,21 +354,31 @@ header button {
     color: white;
     font-family: 'Press Start 2P';
     font-size: 15px;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     border-style: none;
 }
 
 #sobre {
     height: 800px;
     margin-bottom: 80px;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
 
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+<<<<<<< HEAD
+=======
 
     gap: 50px;
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
 
+    gap: 50px;
 
     text-align: center;
     padding: 100px 11%;
@@ -318,7 +407,10 @@ header button {
     border-top: 1px solid var(--laranja);
     text-align: right;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
 
 #sobre h2 {
     margin-bottom: 20px;
@@ -383,7 +475,10 @@ h2 {
 }
 
 .overlay p {
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     line-height: 1.1;
     text-indent: 35px;
     font-size: 14px;
@@ -396,7 +491,10 @@ h2 {
 
 #cases {
     text-align: center;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     padding-bottom: 80px;
     margin-bottom: 40px;
 }
@@ -408,17 +506,22 @@ h2 {
 
 .container-cards {
     width: 100%;
-
     display: flex;
     justify-content: space-between;
 }
 
+<<<<<<< HEAD
+.chamada, .chamada-dois {
+=======
 
 .chamada {
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
+=======
 
     padding: 20px;
 }
@@ -438,14 +541,37 @@ h2 {
     font-family: 'Gameplay';
     font-size: 20px;
     color: #058CD7;
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
 
+    padding: 20px;
+}
+
+.chamada h3, .chamada-dois h3 {
+    text-decoration-thickness: bold;
+    padding-bottom: 10px;
+
+    font-family: 'Gameplay';
+    font-size: 22px;
+    color: var(--branco);
+
+    font-weight: 500;
+}
+
+.chamada-dois p {
+    font-family: 'Gameplay';
+    font-size: 20px;
+    color: #058CD7;
 }
 
 #contato {
     text-align: center;
+<<<<<<< HEAD
+    padding: 60px;
+=======
 
     padding: 60px;
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     margin-bottom: 80px;
 }
 
@@ -453,7 +579,10 @@ h2 {
     border-bottom: 4px solid #FFFCF7;
     width: 100%;
     padding-bottom: 20px;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     margin-bottom: 50px;
 }
 
@@ -481,14 +610,16 @@ h2 {
 
 #contato form {
     backdrop-filter: blur(1px);
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     background-color: #1d191ec9;
 
     width: 40%;
 
     margin: 0 auto;
     padding: 40px 0;
-
 
     display: flex;
     justify-content: end;
@@ -503,12 +634,10 @@ h2 {
 
 .campo {
     width: 80%;
-
     margin-bottom: 20px;
 
     display: flex;
     justify-content: flex-end;
-
     justify-content: space-between;
 }
 
@@ -533,10 +662,12 @@ h2 {
 .campo-textarea {
     width: 80%;
     margin-bottom: 25px;
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     text-align: left;
-
     justify-content: flex-end;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -577,13 +708,19 @@ h2 {
 
     color: #FFFCF7;
     background-color: var(--laranja);
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
 
     border: none;
     border-radius: 20px;
 
     cursor: pointer;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     transition: background-color 500ms ease;
 }
 
@@ -596,21 +733,19 @@ h2 {
     color: #969292;
 }
 
-
-
-
 footer {
     height: 180px;
     background-color: #1d191ed3;
 }
 
-
 footer .container-grid {
     height: 100%;
-
     display: flex;
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     justify-content: end;
     align-items: center;
 }
@@ -630,7 +765,6 @@ footer .container-grid {
     font-size: 20px;
 }
 
-
 .icones-redes {
     display: flex;
     align-items: center;
@@ -643,13 +777,19 @@ footer .container-grid {
     height: 50px;
 }
 
+.chamada a:hover {
+    background-color: var(--azul);
+}
 
+<<<<<<< HEAD
+=======
 
 .chamada a:hover {
     background-color: var(--azul);
 }
 
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
 .chamada a {
     background-color: var(--laranja);
     border: none;
@@ -663,14 +803,21 @@ footer .container-grid {
 
     font-family: 'Gameplay';
     font-size: 18px;
+<<<<<<< HEAD
+    text-decoration: none;
+=======
 
     text-decoration: none;
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     text-align: center;
     padding: 10px;
 }
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
 @media screen and (max-width: 1400px) {
     .overlay h3 {
         font-size: 18px;
@@ -773,7 +920,11 @@ footer .container-grid {
         width: 90%;
     }
 
+<<<<<<< HEAD
+    .chamada, .chamada-dois {
+=======
     .chamada {
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
         padding: 50px;
     }
 
@@ -893,21 +1044,37 @@ footer .container-grid {
         width: 125px;
     }
 
+<<<<<<< HEAD
+    .chamada h3, .chamada-dois h3 {
+=======
     .chamada h3 {
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
         font-size: 20px;
         font-weight: 80;
     }
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     .container {
         height: 420px;
     }
 }
 
+<<<<<<< HEAD
+@media screen and (max-width: 1070px) {
+    .container-cards {
+        justify-content: center;
+    }
+    
+}
+=======
 
 
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
 
 @media screen and (max-width: 1080px) {
     footer {
@@ -944,6 +1111,84 @@ footer .container-grid {
     }
 }
 
+<<<<<<< HEAD
+@media screen and (max-width: 940px) {
+    .container {
+        height: 444px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    #sobre p {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .container-grid {
+        width: 90%;
+    }
+    
+    .container-sobre-um {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #sobre h2 {
+        font-size: 20px;
+    }
+
+    #sobre .p-laranja {
+        padding: 16px 0px 0px 0px;
+        border-top: none;
+        text-align: justify;
+    }
+
+    #sobre p {
+        text-align: justify;
+        padding: 16px 0px 0px 0px;
+        font-size: 14px;
+        border-top: none;
+        margin: 0px;
+    }
+
+    #sobre {
+        background-color: #1D191E;
+    }   
+}
+
+@media screen and (max-width:920px) {
+    #sobre button {
+        font-size: 14px;
+        width: 130px;
+        height: 20px;
+    }
+
+    #sobre {
+        height: unset;
+        margin: 0;
+        padding: 100px 36px;
+    }
+
+    #sobre h2 {
+        margin-bottom: 50px;
+    }
+
+    #sobre p {
+        margin-bottom: 30px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .chamada {
+        background-color: #1D191E;
+    }
+=======
 @media screen and (max-width: 930px) {
     .container {
         height: 444px;
@@ -952,6 +1197,7 @@ footer .container-grid {
 }
 
 @media screen and (max-width:900px) {
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     .overlay p {
         font-size: 14px;
         letter-spacing: 1px;
@@ -974,11 +1220,17 @@ footer .container-grid {
         background: rgb(0, 0, 0);
         background: rgba(0, 0, 0, 0.4);
 
+<<<<<<< HEAD
+        animation: CSSscrollReveal ease-in-out both;
+        animation-timeline: view();
+        animation-range: entry 60% cover 60%;
+=======
 
         animation: CSSscrollReveal ease-in-out both;
         animation-timeline: view();
         animation-range: entry 60% cover 60%;
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     }
 
     @keyframes CSSscrollReveal {
@@ -1011,6 +1263,8 @@ footer .container-grid {
         width: 70%;
     }
 
+<<<<<<< HEAD
+=======
     #sobre p {
         font-size: 16px;
         line-height: 1.6;
@@ -1027,6 +1281,7 @@ footer .container-grid {
     }
 
     
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     
 }
 
@@ -1041,6 +1296,9 @@ footer .container-grid {
 }
 
 @media screen and (max-width: 700px) {
+<<<<<<< HEAD
+  
+=======
     #sobre {
         height: unset;
         margin-bottom: 40px;
@@ -1054,16 +1312,20 @@ footer .container-grid {
         margin-bottom: 30px;
     }
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     #cases,
     #contato {
         margin-bottom: unset;
     }
 
+<<<<<<< HEAD
+=======
     #portfolio a {
         width: 100%;
         text-align: center;
     }
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     .campo,
     .campo-textarea,
     #contato form button {
@@ -1072,18 +1334,24 @@ footer .container-grid {
 }
 
 @media screen and (max-width: 500px) {
+<<<<<<< HEAD
+=======
     .container-grid {
         width: 90%;
     }
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     header img {
         width: 200px;
     }
 
+<<<<<<< HEAD
+=======
     .banner {
         background-size: cover;
     }
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     .conteudo-banner p {
         font-size: 24px;
     }
@@ -1094,6 +1362,8 @@ footer .container-grid {
         display: none;
     }
 
+<<<<<<< HEAD
+=======
     #sobre {
         padding-left: 0px;
         padding-right: 0px;
@@ -1105,6 +1375,7 @@ footer .container-grid {
         margin-bottom: 20px;
     }
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     #cases {
         width: 100%;
         margin: unset;
@@ -1112,9 +1383,12 @@ footer .container-grid {
 
     .container-cards {
         flex-wrap: nowrap;
+<<<<<<< HEAD
+=======
 
         gap: 40px;
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
         overflow: auto;
     }
 
@@ -1125,11 +1399,14 @@ footer .container-grid {
         flex-basis: unset;
     }
 
+<<<<<<< HEAD
+=======
 
     #portfolio {
         margin-bottom: 0;
     }
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     #contato {
         padding-top: 70px;
         color: white;
@@ -1148,6 +1425,27 @@ footer .container-grid {
         font-size: 16px;
     }
 
+<<<<<<< HEAD
+    #contato form button {
+        width: 200px;
+    }
+
+    #contato {
+        padding: 0px;
+    }  
+
+    .overlay {
+        animation: none;
+
+        width: 240px;
+        height: 360px;
+
+        opacity: 1;
+        bottom: 40px;
+        left: 240px;
+    }
+
+=======
 }
 
 @media screen and (max-width: 400px) {
@@ -1218,6 +1516,7 @@ footer .container-grid {
 
 
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     .overlay p {
         font-size: 10px;
         letter-spacing: 1px;
@@ -1228,6 +1527,10 @@ footer .container-grid {
         font-size: 12px;
     }
 
+<<<<<<< HEAD
+    .container-grid {
+        width: 100%;
+=======
     .overlay {
         position: absolute;
         left: 0;
@@ -1263,12 +1566,86 @@ footer .container-grid {
         align-items: center;
         flex-direction: column;
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
     }
 
     .container {
         padding-bottom: 50px;
     }
 
+<<<<<<< HEAD
+    .container img {
+        width: 70%;
+    }
+
+    #cases h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    header img {
+        width: 40%;
+    }
+
+    header svg {
+        width: 24%;
+    }
+
+    header {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    header img {
+        width: 50%;
+    }
+
+    header svg {
+        width: 25%;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    .banner h1 {
+        letter-spacing: 0.2px;
+        font-weight: 1;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    header {
+        height: 80px;
+    }
+
+    .banner h1 {
+        letter-spacing: 0.2px;
+        font-weight: 1;
+        font-size: 14px;
+    }
+
+    .chamada, .chamada-dois {
+        padding: 20px 14px 50px 14px;
+    }
+
+    .chamada-dois p {
+        font-size: 14px;
+    }
+
+    .chamada a {
+        width: 250px;
+        font-size: 16px;
+    }
+
+    .chamada h3, .chamada-dois h3 {
+        font-size: 16px;
+    }
+=======
 
 
+>>>>>>> 6e6aaa95bdbb7ead5d09b73a7b6061c5a6aa9b58
 }
