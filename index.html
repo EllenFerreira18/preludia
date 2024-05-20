@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -19,14 +20,22 @@
         <header>
             <div class="container-grid">
                 <img src="img/logo.svg" alt="Logo da empresa PreLúdia">
-                <nav class="menu">
+                <nav id="menu" class="menu">
                     <a href="#sobre">Quem Somos</a>
                     <a class="especial" href="#cases">Cases de Sucesso</a>
                     <a href="#contato">Contato</a>
                 </nav>
-                <button><svg xmlns="http://www.w3.org/2000/svg"viewBox="0 0 448 512"><path
-                d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-                </svg></button>
+                <button onclick="abrirFecharMenu()">
+                    <svg id="icone-barras" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                    </svg>
+                    <svg id="icone-x" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path fill="#ffffff"
+                            d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                    </svg>
+                </button>
             </div>
         </header>
 
@@ -48,7 +57,8 @@
                     <img src="img/homem_um.png" alt="Personagem em pixel art">
                 </div>
             </div>
-            <p>A PreLúdia surgiu da idealização de dois “players”, Thiago e Tadeu, que decidiram tornar tarefas monótonas em dinâmicas lúdicas</p>
+            <p>A PreLúdia surgiu da idealização de dois “players”, Thiago e Tadeu, que decidiram tornar tarefas
+                monótonas em dinâmicas lúdicas</p>
         </div>
 
         <div class="container-sobre">
@@ -59,11 +69,13 @@
                     <img src="img/homem_dois.png" alt="Personagem em pixel art">
                 </div>
             </div>
-            <p class="p-laranja">Nossa empresa realiza serviços no ramo da gamificação, ou seja, nós tornamos os processos lúdicos. 
-             Desenvolvemos dinâmicas com mecanismos presentes em jogos com o intuito de incentivar pessoas, e trazer melhores resultados no alcance de objetivos</p>
+            <p class="p-laranja">Nossa empresa realiza serviços no ramo da gamificação, ou seja, nós tornamos os
+                processos lúdicos.
+                Desenvolvemos dinâmicas com mecanismos presentes em jogos com o intuito de incentivar pessoas, e trazer
+                melhores resultados no alcance de objetivos</p>
         </div>
     </section>
-    
+
     <div class="chamada">
         <h3>Despertou sua curiosidade sobre nossos projetos?</h3>
         <a href="#cases">Veja nossos cases de sucesso!</a>
@@ -109,22 +121,23 @@
     </section>
 
     <div class="chamada-dois">
-            <h3>Se interessou por nossos trabalhos?</h3>
-            <p>Entre em contato com a gente!<p>
+        <h3>Se interessou por nossos trabalhos?</h3>
+        <p>Entre em contato com a gente!
+        <p>
     </div>
 
     <section id="contato">
-        <form>
+        <form onsubmit="solicitarOrcamento(event)">
             <p>Envie sua mensagem</p>
             <div class="campo um">
-                <input id="campo-nome" type="text" placeholder="Nome">
-                <input id="campo-email" type="email" name="" placeholder="Email">
+                <input required id="campo-nome" type="text" placeholder="Nome">
+                <input id="campo-email" required vtype="email" name="" placeholder="Email">
             </div>
             <div class="campo">
-                <input id="campo-assunto" type="text" placeholder="Assunto">
+                <input required id="campo-assunto" type="text" placeholder="Assunto">
             </div>
             <div class="campo-textarea">
-                <textarea name="" id="campo-mensagem" cols="30" rows="10"
+                <textarea required name="" id="campo-mensagem" cols="30" rows="10"
                     placeholder="Digite sua mensagem..."></textarea>
             </div>
             <button type="submit">Enviar</button>
@@ -150,4 +163,5 @@
         </div>
     </footer>
 </body>
+
 </html>
