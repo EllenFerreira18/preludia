@@ -793,7 +793,6 @@ footer .container-grid {
     nav.menu {
         height: 420px;
         width: 220px;
-
         padding: 0px 15px;
     }
 
@@ -837,10 +836,6 @@ footer .container-grid {
 
     .banner a {
         font-size: 17px;
-    }
-
-    .banner button {
-        width: 125px;
     }
 
     .chamada h3, .chamada-dois h3 {
@@ -1053,7 +1048,11 @@ footer .container-grid {
 
 @media screen and (max-width: 650px) {
     .container-cards {
-        margin: 40px 40px;
+        margin: 10px 10px;
+    }
+
+    #cases {
+        margin: 10px 10px;
     }
 
     .card {
@@ -1082,10 +1081,6 @@ footer .container-grid {
 
     .overlay h3 {
         font-size: 12px;
-    }
-
-    .container-grid {
-        width: 100%;
     }
 
     .container {
@@ -1127,6 +1122,7 @@ footer .container-grid {
 
 @media screen and (max-width: 500px) {
     .container-cards {
+        width: 420px;
         flex-wrap: nowrap;
         overflow: auto;
     }
@@ -1159,47 +1155,91 @@ footer .container-grid {
 
 @media screen and (max-width: 450px) {
     header img {
-        width: 40%;
-    }
-
-    header svg {
-        width: 24%;
-    }
-
-    header {
-        height: 100px;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    header img {
         width: 50%;
     }
 
     header svg {
-        width: 25%;
+        width: 50%;
     }
 
     header {
         height: 100px;
     }
 
+    nav.menu {
+        top: 100px;
+    }
+}
+
+@media screen and (max-width: 430px) {
     .banner h1 {
         letter-spacing: 0.2px;
         font-weight: 1;
         font-size: 15px;
     }
+    
 }
 
-@media screen and (max-width: 350px) {
-    header {
-        height: 80px;
+@media screen and (max-width: 420px) {
+    .container-cards {
+        width: 380px;
+    }
+}
+   
+@media screen and (max-width: 400px) {
+    .container-cards {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .container-cards {
+        width: 350px;
     }
 
+    header img {
+        width: 50%;
+    }
+
+    header {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .container-cards {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .overlay {
+        left: 80%;
+        bottom: 10%;
+
+        width: 80%;
+        height: 90%;
+    }
+    
     .banner h1 {
         letter-spacing: 0.2px;
         font-weight: 1;
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container-cards {
+        width: 320px;
+    }
+
+    header {
+        height: 80px;
+    }
+
+    nav.menu {
+        top: 80px;
+        height: 480px;
     }
 
     .chamada, .chamada-dois {
@@ -1217,5 +1257,22 @@ footer .container-grid {
 
     .chamada h3, .chamada-dois h3 {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .banner h1 {
+        letter-spacing: 0.2px;
+        font-weight: 1;
+        font-size: 13px;
+    }
+    .container-cards {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .container-cards {
+        width: 300px;
     }
 }
